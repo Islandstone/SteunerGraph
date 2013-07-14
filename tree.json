@@ -1,0 +1,159 @@
+{
+    "lang":"Protogermanisch",
+    "abbr":"Pgm.",
+    "sub": [
+    {
+        "lang":"Gothisch",
+        "abbr":"got."
+    },
+    {
+        "lang":"Nordwestgermanisch",
+        "display_name_only":1,
+        "abbr":"",
+        "sub": [
+        {
+            "lang":"Altnordisch",
+            "abbr":"an.",
+            "sub": [
+            {
+                "lang":"Altwestnordisch",
+                "abbr":"anorw.",
+                    "sub": [
+                    {
+                        "lang":"Isländisch",
+                        "abbr":"isl."
+                    },
+                    {
+                        "lang":"Färöisch",
+                        "abbr":"fo."
+                    },
+                    {
+                        "lang":"Nynorsk",
+                        "abbr":"nn."
+                    }
+                ]
+            },
+            {
+                "lang":"Altostnordisch",
+                "abbr":"ao.",
+                "sub": [
+                {
+                    "lang":"Bokmål",
+                    "abbr":"bm."
+                },
+                {
+                    "lang":"Dänisch",
+                    "abbr":"dk."
+                },
+                {
+                    "lang":"Schwedisch",
+                    "abbr":"schw."
+                },
+                {
+                    "lang":"Gutnisch",
+                    "abbr":"gut."
+                }
+                ]
+            }
+            ]
+        },
+        {
+            "lang":"Westgermanisch",
+            "abbr":"wgm.",
+            "sub": [
+            {
+                "lang":"Altenglisch",
+                "abbr":"ae.",
+                "sub": [
+                {
+                    "lang":"Mittelenglisch",
+                    "abbr":"meng.",
+                    "sub": [
+                    {
+                        "lang":"Englisch",
+                        "abbr":"eng."
+                    },
+                    {
+                        "lang":"Scottisch",
+                        "abbr":"sco."
+                    }
+                    ]
+                }
+                ]
+
+            },
+            {
+                "lang":"Altfriesich",
+                "abbr":"afri.",
+                "sub": [
+                {
+                    "lang":"Mittelfriesisch",
+                    "abbr":"mfri.",
+                    "sub": [
+                    {
+                        "lang":"Westfriesisch",
+                        "abbr":"wfri."
+                    }
+                    ]
+                }
+                ]
+
+            },
+            {
+                "lang":"Altsächsisch",
+                "abbr":"as.",
+                "sub": [
+                {
+                    "lang":"Mittelniederländisch",
+                    "abbr":"mnl.",
+                    "sub": [
+                    {
+                        "lang":"Niederländisch",
+                        "abbr":"nl."
+                    }
+                    ]
+                },
+                {
+                    "lang":"Mittelniederdeutsch",
+                    "abbr":"mndrd.",
+                    "sub": [
+                    {
+                        "lang":"Niederdeutsch",
+                        "abbr":"ndrd."
+                    }
+                    ]
+                }
+                ]
+
+            },
+            {
+                "lang":"Althochdeutsch",
+                "abbr":"ahd.",
+                "sub": [
+                {
+                    "lang":"Mittelhochdeutsch",
+                    "abbr":"mhd.",
+                    "sub": [
+                    {
+                        "lang":"Hochdeutsch",
+                        "abbr":"hd."
+                    },
+                    {
+                        "lang":"Pensilfaanisch",
+                        "abbr":"psf."
+                    },
+                    {
+                        "lang":"Luxemburgisch",
+                        "abbr":"lux."
+                    }
+                    ]
+                }
+                ]
+
+            }
+            ]
+        }
+        ]
+    }
+    ]
+}

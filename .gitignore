@@ -1,0 +1,7 @@
+
+# Ignore dot files
+*.dot
+
+# Ignore output files
+img/
+*.jpg

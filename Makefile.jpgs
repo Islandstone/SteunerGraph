@@ -1,0 +1,8 @@
+
+SRCS=$(wildcard *.dot)
+OBJS=$(SRCS:.dot=.jpg)
+
+%.jpg : %.dot
+	dot -Tjpg -o"img/$@" $< > /dev/null
+
+all: $(OBJS)
