@@ -3,7 +3,7 @@
     "abbr":"Pgm.",
     "sub": [
     {
-        "lang":"Gothisch",
+        "lang":"Gotisch",
         "abbr":"got."
     },
     {
@@ -17,19 +17,41 @@
             "sub": [
             {
                 "lang":"Altwestnordisch",
-                "abbr":"anorw.",
+                "abbr":"awn.",
                     "sub": [
                     {
-                        "lang":"Isländisch",
-                        "abbr":"isl."
+                        "lang":"Altisländisch",
+                        "abbr":"aisl.",
+                        "sub": [
+                        {
+                            "lang":"Isländisch",
+                            "abbr":"nisl."
+                        }
+                        ]
                     },
                     {
-                        "lang":"Färöisch",
-                        "abbr":"fo."
+                        "lang":"Altfäröisch",
+                        "abbr":"afär.",
+                        "sub": [
+                        {
+                            "lang":"Färöisch",
+                            "abbr":"nfär."
+                        }
+                        ]
                     },
                     {
-                        "lang":"Nynorsk",
-                        "abbr":"nn."
+                        "lang":"Altnorwegisch",
+                        "abbr":"anorw.",
+                        "sub": [
+                        {
+                            "lang":"Nynorsk",
+                            "abbr":"nn."
+                        },
+                        {
+                            "lang":"Bokmål",
+                            "abbr":"bm."
+                        }
+                        ]
                     }
                 ]
             },
@@ -38,20 +60,34 @@
                 "abbr":"ao.",
                 "sub": [
                 {
-                    "lang":"Bokmål",
-                    "abbr":"bm."
+                    "lang":"Altdänisch",
+                    "abbr":"adk.",
+                    "sub": [
+                    {
+                        "lang":"Dänisch",
+                        "abbr":"ndk."
+                    }
+                    ]
                 },
                 {
-                    "lang":"Dänisch",
-                    "abbr":"dk."
+                    "lang":"Altschwedisch",
+                    "abbr":"aschw.",
+                    "sub": [
+                    {
+                        "lang":"Schwedisch",
+                        "abbr":"nschw."
+                    }
+                    ]
                 },
                 {
-                    "lang":"Schwedisch",
-                    "abbr":"schw."
-                },
-                {
-                    "lang":"Gutnisch",
-                    "abbr":"gut."
+                    "lang":"Altgutnisch",
+                    "abbr":"agut.",
+                    "sub": [
+                    {
+                        "lang":"Gutnisch",
+                        "abbr":"ngut."
+                    }
+                    ]
                 }
                 ]
             }
@@ -71,7 +107,7 @@
                     "sub": [
                     {
                         "lang":"Englisch",
-                        "abbr":"eng."
+                        "abbr":"ne."
                     },
                     {
                         "lang":"Scottisch",
@@ -92,7 +128,7 @@
                     "sub": [
                     {
                         "lang":"Westfriesisch",
-                        "abbr":"wfri."
+                        "abbr":"nfri."
                     }
                     ]
                 }
@@ -104,27 +140,37 @@
                 "abbr":"as.",
                 "sub": [
                 {
-                    "lang":"Mittelniederländisch",
-                    "abbr":"mnl.",
-                    "sub": [
-                    {
-                        "lang":"Niederländisch",
-                        "abbr":"nl."
-                    }
-                    ]
-                },
-                {
                     "lang":"Mittelniederdeutsch",
                     "abbr":"mndrd.",
                     "sub": [
                     {
                         "lang":"Niederdeutsch",
-                        "abbr":"ndrd."
+                        "abbr":"nnd."
                     }
                     ]
                 }
                 ]
 
+            },
+            {
+                "lang":"Altniederländisch",
+                "alt":"anl.",
+                "subs": [
+                {
+                    "lang":"Mittelniederländisch",
+                    "abbr":"mnl.",
+                    "sub": [
+                    {
+                        "lang":"Niederländisch",
+                        "abbr":"nnl."
+                    },
+                    {
+                        "lang":"Afrikaans",
+                        "abbr":"afrik."
+                    }
+                    ]
+                }
+                ]
             },
             {
                 "lang":"Althochdeutsch",
@@ -136,7 +182,7 @@
                     "sub": [
                     {
                         "lang":"Hochdeutsch",
-                        "abbr":"hd."
+                        "abbr":"nhd."
                     },
                     {
                         "lang":"Pensilfaanisch",
