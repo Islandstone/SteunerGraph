@@ -54,7 +54,8 @@ def traverse(f, tree, words):
         if has_children and has_nonempty_children: # TODO: Logic consequence?
             f.write(indexs)
             f.write(" [shape=none,label=\"")
-            f.write(tree["lang"])
+            #f.write(tree["lang"])
+            f.write(tree["lang"].replace('"', '\"'))
             f.write("\"]\n")
         else:
             return False
@@ -62,7 +63,7 @@ def traverse(f, tree, words):
         f.write(indexs)
         f.write(" [shape=none,label=<")
         f.write("(" + tree["abbr"] + ") " + words[index])
-        if len(words[inf_index]) != 0:
+        if inf_index < len(words) and len(words[inf_index]) != 0:
             f.write("<br/>" + "<i>" + words[inf_index] + "</i>")
         f.write(">]\n")
 
@@ -76,7 +77,7 @@ def get_tree():
     return lang_tree
 
 def sanitize_filename(fname):
-    return fname.replace('*', '').replace('-', '').replace(' ', '').replace('/', '').replace('(','').replace(')', '')
+    return fname.replace("'", "").replace('"', '').replace('*', '').replace('-', '').replace(' ', '').replace('/', '').replace('(','').replace(')', '')
 
 def write_dotfile(words):
     tree = get_tree()
@@ -87,7 +88,7 @@ def write_dotfile(words):
     f.write("digraph {\n")
 
     # Peamble
-    f.write("node [fontname=\"Georgia\"];\n")
+    f.write("node [fontname=\"Arial\"];\n")
     f.write("edge [arrowhead=none,arrowtail=dot];\n")
 
     # Body

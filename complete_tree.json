@@ -1,0 +1,205 @@
+{
+    "lang":"Protogermanisch",
+    "abbr":"Pgm.",
+    "sub": [
+    {
+        "lang":"Gotisch",
+        "abbr":"got."
+    },
+    {
+        "lang":"Nordwestgermanisch",
+        "display_name_only":1,
+        "abbr":"",
+        "sub": [
+        {
+            "lang":"Altnordisch",
+            "abbr":"an.",
+            "sub": [
+            {
+                "lang":"Altwestnordisch",
+                "abbr":"awn.",
+                    "sub": [
+                    {
+                        "lang":"Altisländisch",
+                        "abbr":"aisl.",
+                        "sub": [
+                        {
+                            "lang":"Isländisch",
+                            "abbr":"nisl."
+                        }
+                        ]
+                    },
+                    {
+                        "lang":"Altfäröisch",
+                        "abbr":"afär.",
+                        "sub": [
+                        {
+                            "lang":"Färöisch",
+                            "abbr":"nfär."
+                        }
+                        ]
+                    },
+                    {
+                        "lang":"Altnorwegisch",
+                        "abbr":"anorw.",
+                        "sub": [
+                        {
+                            "lang":"Nynorsk",
+                            "abbr":"nn."
+                        },
+                        {
+                            "lang":"Bokmål",
+                            "abbr":"bm."
+                        }
+                        ]
+                    }
+                ]
+            },
+            {
+                "lang":"Altostnordisch",
+                "abbr":"ao.",
+                "sub": [
+                {
+                    "lang":"Altdänisch",
+                    "abbr":"adk.",
+                    "sub": [
+                    {
+                        "lang":"Dänisch",
+                        "abbr":"ndk."
+                    }
+                    ]
+                },
+                {
+                    "lang":"Altschwedisch",
+                    "abbr":"aschw.",
+                    "sub": [
+                    {
+                        "lang":"Schwedisch",
+                        "abbr":"nschw."
+                    }
+                    ]
+                },
+                {
+                    "lang":"Altgutnisch",
+                    "abbr":"agut.",
+                    "sub": [
+                    {
+                        "lang":"Gutnisch",
+                        "abbr":"ngut."
+                    }
+                    ]
+                }
+                ]
+            }
+            ]
+        },
+        {
+            "lang":"Westgermanisch",
+            "abbr":"wgm.",
+            "sub": [
+            {
+                "lang":"Altenglisch",
+                "abbr":"ae.",
+                "sub": [
+                {
+                    "lang":"Mittelenglisch",
+                    "abbr":"meng.",
+                    "sub": [
+                    {
+                        "lang":"Englisch",
+                        "abbr":"ne."
+                    },
+                    {
+                        "lang":"Scottisch",
+                        "abbr":"sco."
+                    }
+                    ]
+                }
+                ]
+
+            },
+            {
+                "lang":"Altfriesich",
+                "abbr":"afri.",
+                "sub": [
+                {
+                    "lang":"Mittelfriesisch",
+                    "abbr":"mfri.",
+                    "sub": [
+                    {
+                        "lang":"Westfriesisch",
+                        "abbr":"nfri."
+                    }
+                    ]
+                }
+                ]
+
+            },
+            {
+                "lang":"Altsächsisch",
+                "abbr":"as.",
+                "sub": [
+                {
+                    "lang":"Mittelniederdeutsch",
+                    "abbr":"mndrd.",
+                    "sub": [
+                    {
+                        "lang":"Niederdeutsch",
+                        "abbr":"nnd."
+                    }
+                    ]
+                }
+                ]
+
+            },
+            {
+                "lang":"Altniederländisch",
+                "alt":"anl.",
+                "subs": [
+                {
+                    "lang":"Mittelniederländisch",
+                    "abbr":"mnl.",
+                    "sub": [
+                    {
+                        "lang":"Niederländisch",
+                        "abbr":"nnl."
+                    },
+                    {
+                        "lang":"Afrikaans",
+                        "abbr":"afrik."
+                    }
+                    ]
+                }
+                ]
+            },
+            {
+                "lang":"Althochdeutsch",
+                "abbr":"ahd.",
+                "sub": [
+                {
+                    "lang":"Mittelhochdeutsch",
+                    "abbr":"mhd.",
+                    "sub": [
+                    {
+                        "lang":"Hochdeutsch",
+                        "abbr":"nhd."
+                    },
+                    {
+                        "lang":"Pensilfaanisch",
+                        "abbr":"psf."
+                    },
+                    {
+                        "lang":"Luxemburgisch",
+                        "abbr":"lux."
+                    }
+                    ]
+                }
+                ]
+
+            }
+            ]
+        }
+        ]
+    }
+    ]
+}
