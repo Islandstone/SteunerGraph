@@ -1,6 +1,6 @@
 {
     "lang":"Protogermanisch",
-    "abbr":"Pgm.",
+    "abbr":"ppgm.",
     "sub": [
     {
         "lang":"Gotisch",
@@ -119,11 +119,11 @@
 
             },
             {
-                "lang":"Altfriesich",
+                "lang":"Altfriesisch",
                 "abbr":"afri.",
                 "sub": [
                 {
-                    "lang":"Mittelfriesisch",
+                    "lang":"Mittelwestfriesisch",
                     "abbr":"mfri.",
                     "sub": [
                     {
@@ -141,7 +141,7 @@
                 "sub": [
                 {
                     "lang":"Mittelniederdeutsch",
-                    "abbr":"mndrd.",
+                    "abbr":"mnd.",
                     "sub": [
                     {
                         "lang":"Niederdeutsch",
@@ -154,8 +154,8 @@
             },
             {
                 "lang":"Altniederländisch",
-                "alt":"anl.",
-                "subs": [
+                "abbr":"anl.",
+                "sub": [
                 {
                     "lang":"Mittelniederländisch",
                     "abbr":"mnl.",
@@ -195,7 +195,6 @@
                     ]
                 }
                 ]
-
             }
             ]
         }

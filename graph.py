@@ -9,7 +9,7 @@ import sys
 first_line = []
 
 # An arbitrary offset for languages not in the index
-count = 100
+count = 500
 
 # Index dictionary for the languages
 index_dict = {}
@@ -24,7 +24,7 @@ def lang_index(lang):
         if not index_dict.has_key(lang):
             index_dict[lang] = first_line.index(lang)
         return index_dict[lang]
-    except:
+    except ValueError:
         if not index_dict.has_key(lang):
             index_dict[lang] = count
             count += 1
@@ -62,9 +62,22 @@ def traverse(f, tree, words):
     else:
         f.write(indexs)
         f.write(" [shape=none,label=<")
+
+        #f.write("(" + tree["abbr"] + ") " + tree["lang"])
+        #if inf_index < len(words) and len(words[inf_index]) != 0:
+        #    f.write("<br/>" + "<i>" + tree["lang"] + "_inf" + "</i>")
+
+        #print tree["lang"]
+
         f.write("(" + tree["abbr"] + ") " + words[index])
-        if inf_index < len(words) and len(words[inf_index]) != 0:
+
+        print(tree["lang"], "has index", index)
+        print(tree["lang"] + "_inf", "has index", inf_index)
+        print("\n")
+
+        if inf_index <= len(words) and len(words[inf_index]) > 0:
             f.write("<br/>" + "<i>" + words[inf_index] + "</i>")
+        
         f.write(">]\n")
 
     return True
@@ -116,12 +129,12 @@ def main():
         # Skip the first since it's headers
         if n == 0:
             # Store the index
-            first_line = lines[n].split(",")
+            first_line = lines[n].replace("\r","").replace("\n", "").split(",")
             continue
 
         line = lines[n]
 
-        words = line.split(",")
+        words = line.replace("\r","").replace("\n", "").split(",")
         write_dotfile(words)
 
 if __name__ == '__main__':
